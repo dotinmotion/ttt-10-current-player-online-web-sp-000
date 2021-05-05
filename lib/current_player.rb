@@ -52,4 +52,4 @@ def turn_count(board)
   count
 end
 
-current_player(board) = (turn_count[board] % 2 = 0) ? "X" : "0"
+current_player(board) = (turn_count[board] % 2 == 0) ? "X" : "0"
